@@ -11,7 +11,7 @@
 ### Результат:
 Образ доступен по ссылке: https://hub.docker.com/r/sermsn/custom_nginx
 
-![Задача 1](images\Docker_z1.png)
+![Задача 1](images/Docker_z1.png)
 
 ---
 
@@ -30,9 +30,9 @@ docker rename MalyavkoSN-custom-nginx-t2 custom-nginx-t2
 curl http://127.0.0.1:8080
 ```
 
-![Задача 2](images\Docker_z2_1.png)
+![Задача 2](images/Docker_z2_1.png)
 
-![Задача 2](images\Docker_z2_2.png)
+![Задача 2](images/Docker_z2_2.png)
 ---
 
 ## **Задача 3: Работа с контейнером и диагностика**
@@ -47,10 +47,10 @@ curl http://127.0.0.1:8080
 ### Проблема и решение:
 Контейнер слушал порт 81 внутри, но наружу был опубликован порт 80, что вызывало несоответствие.
 
-![Задача 3](images\Docker_z3_1.png)
-![Задача 3](images\Docker_z3_2.png)
-![Задача 3](images\Docker_z3_3.png)
-![Задача 3](images\Docker_z3_4.png)
+![Задача 3](images/Docker_z3_1.png)
+![Задача 3](images/Docker_z3_2.png)
+![Задача 3](images/Docker_z3_3.png)
+![Задача 3](images/Docker_z3_4.png)
 ---
 
 ## **Задача 4: Работа с volumes**
@@ -70,7 +70,7 @@ touch from-host.txt
 docker exec debian-container ls -la /data
 ```
 
-![Задача 4](images\Docker_z4.png)
+![Задача 4](images/Docker_z4.png)
 
 ---
 
@@ -104,9 +104,9 @@ services:
       - "5000:5000"
 ```
 
-![Задача 5](images\Docker_z5_1.png)
-![Задача 5](images\Docker_z5_2.png)
-![Задача 5](images\Docker_z5_3.png)
+![Задача 5](images/Docker_z5_1.png)
+![Задача 5](images/Docker_z5_2.png)
+![Задача 5](images/Docker_z5_3.png)
 ---
 
 ## **Итоги**
